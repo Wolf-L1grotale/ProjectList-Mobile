@@ -1,0 +1,38 @@
+# Build artifacts
+build/
+*.apk
+*.aab
+
+# Gradle / Kotlin caches
+.gradle/
+.kotlin/
+.gradlekts/
+
+# IDE
+.idea/
+.idea/replstate.xml
+.vscode/
+*.iml
+
+# Android
+/local.properties
+/**/*.diags
+.cxx/
+
+# Tests / coverage
+app/build/
+reports/
+coverage/
+
+# Logs, temp, OS files
+*.log
+*.tmp
+tmp/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.local
+*.keystore
+google-services.json
